@@ -52,3 +52,65 @@
   font-weight: bold;
   border-radius: 1rem;
 }
+
+.dialog{
+  position: absolute;
+  width: 80%;
+  height: 350px;
+  margin: auto;
+  border-radius: 1rem;
+  border: 3px solid rgb(7, 135, 125);
+  box-shadow: 0 0 1rem white;
+  padding: .5rem;
+
+  > p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: rgb(0, 52, 65);
+    color: white;
+    padding: 0.25rem;
+    text-align: center;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+  }
+}
+.dialog::backdrop{
+  background: linear-gradient(45deg, rgba(36, 86, 122, 0.714), rgba(7, 135, 124, 0.675));
+  backdrop-filter: blur(1px);
+}
+
+.inputChangePeriod{
+  display: flex;
+  flex-direction: column;
+
+  > label {
+    font-weight: bold;
+  }
+
+  > input {
+    padding: .12rem;
+    margin-bottom: .25rem;
+  }
+}
+
+.dialogButtons{
+  display: flex;
+  padding: .5rem 0;
+  gap: 1rem;
+  > button{
+    flex-grow: 1;
+    padding: .25rem;
+    border: 3px solid rgb(0, 52, 65);
+    outline: none;
+    border-radius: .5rem;
+
+    &[type=reset]{
+      background-color: tomato;
+      color: white;
+    }
+    &[type=submit]{
+      background-color: rgb(0, 233, 39);
+      color: white;
+    }
+  }
+}

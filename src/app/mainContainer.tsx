@@ -3,14 +3,6 @@ import ScheduleCard, { Holiday } from '@/Components/scheduleCard'
 import styles from './home.module.scss'
 import React, { useState, useEffect } from 'react'
 
-type TData = {
-  timeFrom: string;
-  timeTo: string;
-  courseCode: string;
-  subject: string;
-  professor: string;
-}
-
 export default function Main({ data }: { data: Array<Array<TData>> }) {
   const [day, setDay] = useState(1)
   const d = new Date();
