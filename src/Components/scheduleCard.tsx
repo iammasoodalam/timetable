@@ -22,7 +22,7 @@ export default function ScheduleCard(
       dialog.showModal();
     }
   }
-  const changeInput = (e: any) => {
+  const changeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     setData(prev => ({ ...prev, [e.target.name]: e.target.value }))
   }
   return (

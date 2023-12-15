@@ -1,16 +1,16 @@
 'use client'
 import ScheduleCard, { Holiday } from '@/Components/scheduleCard'
 import styles from './home.module.scss'
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 
+const d = new Date();
+const today = d.getDay();
 export default function Main({ data }: { data: Array<Array<TData>> }) {
-  const [day, setDay] = useState(1)
-  const d = new Date();
-  useEffect(() => {
-    setDay(d.getDay())
-  }, [])
-  const changeDay = (event: any) => { // I don't know, what will be the type of the event
-    setDay(event.target.value)
+  const [day, setDay] = useState(today)
+
+  const changeDay = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const value: unknown = event.target.value;
+    setDay(value as number)
   }
   return (
     <main className={styles.main}>
