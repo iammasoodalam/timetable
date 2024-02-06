@@ -1,6 +1,6 @@
 'use client'
 import styles from './scheduleCard.module.scss'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 
 export default function ScheduleCard(
   {
@@ -10,20 +10,25 @@ export default function ScheduleCard(
     courseCode,
     professor
   }: TData) {
+
   const [data, setData] = useState({
     timeFrom, timeTo, subject, courseCode, professor
   })
+
+  const start = useRef(timeFrom)
   let dialog: HTMLDialogElement;
+
   useEffect(() => {
     dialog = document.getElementById("dialog") as HTMLDialogElement
   }, [])
+
   const changeData = () => {
     if (dialog) {
       dialog.showModal();
     }
   }
-  const changeInput = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setData(prev => ({ ...prev, [e.target.name]: e.target.value }))
+  const changeCardData = (e: React.FormEvent) => {
+    console.log((e.target as any).timeFrom.value)
   }
   return (
     <div className={styles.card}>
@@ -44,26 +49,18 @@ export default function ScheduleCard(
       </div>
       <dialog id='dialog' className={styles.dialog}>
         <p className={styles.editTitle}>Edit Period Data</p>
-        <form method='dialog'>
+        <form method='dialog' onSubmit={changeCardData}>
           <div className={styles.inputChangePeriod}>
             <label htmlFor="timeFrom">From: </label>
-            <input type="text" name="timeFrom" id="timeFrom" value={data.timeFrom} onChange={changeInput} />
+            <input type="text" name="timeFrom" id="timeFrom" />
           </div>
           <div className={styles.inputChangePeriod}>
             <label htmlFor="timeTo">To: </label>
-            <input type="text" name="timeTo" id="timeTo" value={data.timeTo} onChange={changeInput} />
+            <input type="text" name="timeTo" id="timeTo" />
           </div>
-          <div className={styles.inputChangePeriod}>
-            <label htmlFor="subject">Subject: </label>
-            <input type="text" name="subject" id="subject" value={data.subject} onChange={changeInput} />
-          </div>
-          <div className={styles.inputChangePeriod}>
-            <label htmlFor="professor">Professor: </label>
-            <input type="text" name="professor" id="professor" value={data.professor} onChange={changeInput} />
-          </div>
-          <div className={styles.inputChangePeriod}>
-            <label htmlFor="courseCode">Course Code: </label>
-            <input type="text" name="courseCode" id="courseCode" value={data.courseCode} onChange={changeInput} />
+          <div className={styles.inputCancelPeriod}>
+            <input type="checkbox" name="classCancelled" id="classCancelled" />
+            <label htmlFor="classCancelled">Class Cancelled</label>
           </div>
           <div className={styles.dialogButtons}>
             <button id='cancel' type='reset' onClick={() => (dialog.close())}>Cancel</button>

@@ -9,12 +9,12 @@ export default function Main({ data }: { data: Array<Array<TData>> }) {
   const [day, setDay] = useState(today)
 
   const changeDay = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    const value: unknown = event.target.value;
-    setDay(value as number)
+    setDay(Number(event.target.value))
   }
   return (
     <main className={styles.main}>
       <select name='day' id='day' value={day} className={styles.daySelection} onChange={changeDay}>
+        <option value="">Check for another day</option>
         <option value="1">Monday</option>
         <option value="2">Tuesday</option>
         <option value="3">Wednesday</option>

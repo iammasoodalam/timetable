@@ -1,49 +1,45 @@
-.card{
+.card {
   margin: 1rem 0;
   background-color: rgb(0, 52, 65);
   border-radius: 1rem;
   padding: 1rem;
 }
-.header{
+.header {
   background-color: rgb(36, 86, 122);
-  padding: .25rem .5rem;
-  border-radius: .5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-weight: bold;
 }
 
-
-.modify{
+.modify {
   color: white;
+  font-size: 1rem;
   background-color: rgb(3, 66, 61);
-  padding: .25rem .5rem;
-  border-radius: .5rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
   border: 3px solid rgb(7, 135, 125);
   outline: none;
 }
 
-.subject{
+.subject {
   margin: 0.5rem 0 0 0;
   font-size: 1.4rem;
 }
 
 .footer {
-  margin: 0 .25rem;
+  margin: 0.5rem 0;
+  background-color: rgb(29, 29, 58);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.courseCode {
-  margin: .25rem 0;
-  font-size: 0.9rem;
-}
-.professor {
-  margin: 0.25rem 0 0 0;
-}
 
-.holiday{
+.holiday {
   margin: 1rem 0;
   background-color: rgb(187, 63, 140);
   color: black;
@@ -53,15 +49,15 @@
   border-radius: 1rem;
 }
 
-.dialog{
+.dialog {
   position: absolute;
   width: 80%;
-  height: 350px;
+  height: 240px;
   margin: auto;
   border-radius: 1rem;
   border: 3px solid rgb(7, 135, 125);
   box-shadow: 0 0 1rem white;
-  padding: .5rem;
+  padding: 0.5rem;
 
   > p {
     font-size: 1.1rem;
@@ -70,16 +66,20 @@
     color: white;
     padding: 0.25rem;
     text-align: center;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     margin-bottom: 1rem;
   }
 }
-.dialog::backdrop{
-  background: linear-gradient(45deg, rgba(36, 86, 122, 0.714), rgba(7, 135, 124, 0.675));
+.dialog::backdrop {
+  background: linear-gradient(
+    45deg,
+    rgba(36, 86, 122, 0.714),
+    rgba(7, 135, 124, 0.675)
+  );
   backdrop-filter: blur(1px);
 }
 
-.inputChangePeriod{
+.inputChangePeriod {
   display: flex;
   flex-direction: column;
 
@@ -88,27 +88,36 @@
   }
 
   > input {
-    padding: .12rem;
-    margin-bottom: .25rem;
+    padding: 0.12rem;
+    margin-bottom: 0.25rem;
   }
 }
 
-.dialogButtons{
+.inputCancelPeriod {
+  background-color: tomato;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   display: flex;
-  padding: .5rem 0;
+  gap: 0.5rem;
+  color: white;
+}
+
+.dialogButtons {
+  display: flex;
+  padding: 0.5rem 0;
   gap: 1rem;
-  > button{
+  > button {
     flex-grow: 1;
-    padding: .25rem;
+    padding: 0.25rem;
     border: 3px solid rgb(0, 52, 65);
     outline: none;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
 
-    &[type=reset]{
+    &[type="reset"] {
       background-color: tomato;
       color: white;
     }
-    &[type=submit]{
+    &[type="submit"] {
       background-color: rgb(0, 233, 39);
       color: white;
     }
