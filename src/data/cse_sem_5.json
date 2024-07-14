@@ -1,0 +1,150 @@
+[
+  [
+    {
+      "time_from": "11:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPC10",
+      "course_name": "Operating Systems",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "time_from": "13:30",
+      "time_to": "15:30",
+      "course_code": "CSEUGPC15",
+      "course_name": "Database Management Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    },
+    {
+      "time_from": "15:30",
+      "time_to": "16:30",
+      "course_code": "CSEUGPC13",
+      "course_name": "Formal Language & Automata Theory",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
+    }
+  ],
+  [
+    {
+      "time_from": "11:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPC13",
+      "course_name": "Formal Language & Automata Theory",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
+    },
+    {
+      "time_from": "13:30",
+      "time_to": "14:30",
+      "course_code": "CSEUGPC11",
+      "course_name": "Database Management Systems",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    },
+    {
+      "time_from": "14:30",
+      "time_to": "16:30",
+      "course_code": "CSEUGPC16",
+      "course_name": "Design & Analysis of Algorithms Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain"
+      ]
+    }
+  ],
+  [
+    {
+      "time_from": "10:00",
+      "time_to": "12:00",
+      "course_code": "CSEUGPC14",
+      "course_name": "Operating Systems Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": "ECEUGOE04",
+      "course_name": "Microprocessor & Its Applications",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Babar Ali"
+      ]
+    },
+    {
+      "time_from": "13:30",
+      "time_to": "17:30",
+      "course_code": "Not_available",
+      "course_name": "Soft Skill",
+      "schedule_type": "Unknown",
+      "professor": []
+    }
+  ],
+  [
+    {
+      "time_from": "10:00",
+      "time_to": "11:00",
+      "course_code": "CSEUGPC14",
+      "course_name": "Operating Systems Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "time_from": "11:00",
+      "time_to": "13:00",
+      "course_code": "ECEUGOE04",
+      "course_name": "Microprocessor & Its Applications",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Babar Ali"
+      ]
+    },
+    {
+      "time_from": "13:30",
+      "time_to": "15:30",
+      "course_code": "CSEUGPC12",
+      "course_name": "Design & Analysis of Algorithms",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain"
+      ]
+    }
+  ],
+  [
+    {
+      "time_from": "11:00",
+      "time_to": "12:00",
+      "course_code": "CSEUGPC12",
+      "course_name": "Design & Analysis of Algorithms",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain"
+      ]
+    },
+    {
+      "time_from": "13:30",
+      "time_to": "15:30",
+      "course_code": "CSEUGPC11",
+      "course_name": "Database Management Systems",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    }
+  ]
+]
