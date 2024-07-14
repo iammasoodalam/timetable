@@ -3,63 +3,31 @@
     {
       "time_from": "11:00",
       "time_to": "13:00",
-      "course_code": "CSEUGPC10",
-      "course_name": "Operating Systems",
+      "course_code": "MCAPGPC19",
+      "course_name": "Compiler Design",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Zeenat Rehena"
+        "Dr. Khondekar Lutful Hassan"
       ]
     },
     {
       "time_from": "13:30",
       "time_to": "15:30",
-      "course_code": "CSEUGPC15",
-      "course_name": "Database Management Lab",
-      "schedule_type": "lab",
+      "course_code": "MCAPGPC20",
+      "course_name": "Internet and Web Technology",
+      "schedule_type": "lecture",
       "professor": [
-        "Dr. Moumita Chatterjee"
+        "Dr. Nashreen Nesa"
       ]
     },
     {
       "time_from": "15:30",
-      "time_to": "16:30",
-      "course_code": "CSEUGPC13",
-      "course_name": "Formal Language & Automata Theory",
+      "time_to": "17:30",
+      "course_code": " MCAPGPE06",
+      "course_name": " Pattern Recognition",
       "schedule_type": "lecture",
       "professor": [
-        "Ahsan Mullick"
-      ]
-    }
-  ],
-  [
-    {
-      "time_from": "11:00",
-      "time_to": "13:00",
-      "course_code": "CSEUGPC13",
-      "course_name": "Formal Language & Automata Theory",
-      "schedule_type": "lecture",
-      "professor": [
-        "Ahsan Mullick"
-      ]
-    },
-    {
-      "time_from": "13:30",
-      "time_to": "14:30",
-      "course_code": "CSEUGPC11",
-      "course_name": "Database Management Systems",
-      "schedule_type": "lecture",
-      "professor": [
-        "Dr. Moumita Chatterjee"
-      ]
-    },
-    {
-      "time_from": "14:30",
-      "time_to": "16:30",
-      "course_code": "CSEUGPC16",
-      "course_name": "Design & Analysis of Algorithms Lab",
-      "schedule_type": "lab",
-      "professor": [
-        "Dr. Sk Md Mosaddek Hossain"
+        "Dr. Ayatullah Faruk Mollah"
       ]
     }
   ],
@@ -67,83 +35,147 @@
     {
       "time_from": "10:00",
       "time_to": "12:00",
-      "course_code": "CSEUGPC14",
-      "course_name": "Operating Systems Lab",
-      "schedule_type": "lab",
+      "course_code": "UCEPGAU01",
+      "course_name": "Elementary Arabic & Islamic Studies",
+      "schedule_type": "lecture",
       "professor": [
-        "Dr. Zeenat Rehena"
+        "test"
       ]
     },
     {
       "time_from": "12:00",
-      "time_to": "13:00",
-      "course_code": "ECEUGOE04",
-      "course_name": "Microprocessor & Its Applications",
+      "time_to": "01:00",
+      "course_code": "MCAPGPC21",
+      "course_name": "Software Engineering",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Sk Babar Ali"
+        "Dr. Moumita Chatterjee"
       ]
     },
     {
-      "time_from": "13:30",
-      "time_to": "17:30",
-      "course_code": "Not_available",
-      "course_name": "Soft Skill",
-      "schedule_type": "Unknown",
-      "professor": []
+      "time_from": "01:30",
+      "time_to": "02:30",
+      "course_code": "MCAPGPC17",
+      "course_name": "Design and Analysis of Algorithms",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Md Azharuddin"
+      ]
+    },
+    {
+      "time_from": "02:30",
+      "time_to": "04:30",
+      "course_code": " MCAPGPC22",
+      "course_name": "Web Technology Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Nashreen Nesa"
+      ]
     }
   ],
   [
     {
       "time_from": "10:00",
       "time_to": "11:00",
-      "course_code": "CSEUGPC14",
-      "course_name": "Operating Systems Lab",
-      "schedule_type": "lab",
+      "course_code": "MCAPGPC18",
+      "course_name": "Information Security",
+      "schedule_type": "lecture",
       "professor": [
-        "Dr. Zeenat Rehena"
+        "Amina Khatun"
       ]
     },
     {
       "time_from": "11:00",
-      "time_to": "13:00",
-      "course_code": "ECEUGOE04",
-      "course_name": "Microprocessor & Its Applications",
+      "time_to": "01:00",
+      "course_code": "MCAPGPC23",
+      "course_name": "Information Security Lab",
+      "schedule_type": "lab",
+      "professor": ["Amina Khatun"]
+    },
+    {
+      "time_from": "02:30",
+      "time_to": "04:30",
+      "course_code": " MCAPGPC22",
+      "course_name": "Soft Skill",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Nashreen Nesa"
+      ]
+    }
+    
+    
+  ],
+  [
+    {
+      "time_from": "10:00",
+      "time_to": "12:00",
+      "course_code": "MCAPGPC17",
+      "course_name": "Design and Analysis of Algorithms",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Sk Babar Ali"
+        "Dr. Md Azharuddin"
+      ]
+    },
+    {
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": " MCAPGPE06",
+      "course_name": "Pattern Recognition",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Ayatullah Faruk Mollah"
       ]
     },
     {
       "time_from": "13:30",
-      "time_to": "15:30",
-      "course_code": "CSEUGPC12",
-      "course_name": "Design & Analysis of Algorithms",
+      "time_to": "14:30",
+      "course_code": "MCAPGPC20",
+      "course_name": "Internet and Web Technology",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Sk Md Mosaddek Hossain"
+        "Dr. Nashreen Nesa"
+      ]
+    },
+    {
+      "time_from": "02:30",
+      "time_to": "04:30",
+      "course_code": "MCAPGPC21",
+      "course_name": "Software Engineering",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    },
+    {
+      "time_from": "4:30",
+      "time_to": "5:30",
+      "course_code": "MCAPGPC19",
+      "course_name": "Compiler Design",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Khondekar Lutful Hassan"
       ]
     }
   ],
   [
     {
-      "time_from": "11:00",
+      "time_from": "10:00",
       "time_to": "12:00",
-      "course_code": "CSEUGPC12",
-      "course_name": "Design & Analysis of Algorithms",
+      "course_code": "MCAPGPC18",
+      "course_name": "Information Security",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Sk Md Mosaddek Hossain"
+        "Amina Khatun"
       ]
     },
     {
-      "time_from": "13:30",
-      "time_to": "15:30",
-      "course_code": "CSEUGPC11",
-      "course_name": "Database Management Systems",
+      "time_from": "1:30",
+      "time_to": "3:30",
+      "course_code": "UCEPGAU01",
+      "course_name": "Elementary Arabic & Islamic Studies",
       "schedule_type": "lecture",
       "professor": [
-        "Dr. Moumita Chatterjee"
+        "N/A"
       ]
     }
   ]
