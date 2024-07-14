@@ -1,4 +1,4 @@
-import ScheduleUI from "@/components/ScheduleUI";
+import ScheduleUI from "@/components/ScheduleUI"
 import getRoutine from "@/util/getRoutine";
 
 export default function Home() {
