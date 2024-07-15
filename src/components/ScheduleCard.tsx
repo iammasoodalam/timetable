@@ -58,7 +58,7 @@ export default function ScheduleCard(day: cardData) {
       <dialog className={styles.modal} ref={dialogRef}>
         <form method="dialog" className={styles.updateCardForm}>
           <div className={styles.change_time}>
-            <label className={styles.formLabel} htmlFor="change_time">
+            <label className={styles.formLabel} htmlFor="time_from">
               Time
             </label>
             <div className={styles.time_inputs}>

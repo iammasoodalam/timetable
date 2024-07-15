@@ -6,7 +6,9 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Schedule for Aliah CSE 5th semester",
+  icons: "/images/icon-512x512.png",
   description: "Hi 👋",
+  manifest: "/manifest.json"
 };
 
 export default function RootLayout({

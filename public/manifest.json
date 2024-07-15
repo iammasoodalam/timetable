@@ -1,0 +1,33 @@
+{
+  "name": "Schedule for Aliah CSE Semester 5",
+  "short_name": "Time Table",
+  "theme_color": "#0d081b",
+  "background_color": "#0d081b",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "description": "This app is created to see timetable, and added option to edit timetable by the CR of the class and provide the screenshot in the WhatsApp group",
+  "icons": [
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/sc-desktop.png",
+      "sizes": "1276x775",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen of Schedule App"
+    },
+    {
+      "src": "/images/sc-phone.png",
+      "sizes": "404x866",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Homescreen of Schedule App"
+    }
+  ]
+}
