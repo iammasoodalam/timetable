@@ -3,20 +3,6 @@ import ScheduleCard from "@/components/ScheduleCard";
 import { useState, useEffect, ChangeEvent } from "react";
 import styles from './ScheduleUI.module.scss'
 
-type data = [
-  [
-    {
-      time_from: string;
-      time_to: string;
-      course_code: string;
-      course_name: string;
-      schedule_type: string;
-      professor: [string];
-    }
-  ]
-];
-
-
 export default function ScheduleUI({ data }: { data: data }) {
   const [today, setToday] = useState(0)
   useEffect(() => {
