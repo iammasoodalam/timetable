@@ -1,6 +1,7 @@
 [
   [
     {
+      "id": 1,
       "time_from": "11:00",
       "time_to": "13:00",
       "course_code": "CSEUGPC10",
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "id": 2,
       "time_from": "13:30",
       "time_to": "15:30",
       "course_code": "CSEUGPC15",
@@ -21,6 +23,7 @@
       ]
     },
     {
+      "id": 3,
       "time_from": "15:30",
       "time_to": "16:30",
       "course_code": "CSEUGPC13",
@@ -33,6 +36,7 @@
   ],
   [
     {
+      "id": 4,
       "time_from": "11:00",
       "time_to": "13:00",
       "course_code": "CSEUGPC13",
@@ -43,6 +47,7 @@
       ]
     },
     {
+      "id": 5,
       "time_from": "13:30",
       "time_to": "14:30",
       "course_code": "CSEUGPC11",
@@ -53,6 +58,7 @@
       ]
     },
     {
+      "id": 6,
       "time_from": "14:30",
       "time_to": "16:30",
       "course_code": "CSEUGPC16",
@@ -65,6 +71,7 @@
   ],
   [
     {
+      "id": 7,
       "time_from": "10:00",
       "time_to": "12:00",
       "course_code": "CSEUGPC14",
@@ -75,6 +82,7 @@
       ]
     },
     {
+      "id": 8,
       "time_from": "12:00",
       "time_to": "13:00",
       "course_code": "ECEUGOE04",
@@ -85,6 +93,7 @@
       ]
     },
     {
+      "id": 9,
       "time_from": "13:30",
       "time_to": "17:30",
       "course_code": "Not_available",
@@ -97,6 +106,7 @@
   ],
   [
     {
+      "id": 10,
       "time_from": "10:00",
       "time_to": "11:00",
       "course_code": "CSEUGPC14",
@@ -107,6 +117,7 @@
       ]
     },
     {
+      "id": 11,
       "time_from": "11:00",
       "time_to": "13:00",
       "course_code": "ECEUGOE04",
@@ -117,6 +128,7 @@
       ]
     },
     {
+      "id": 12,
       "time_from": "13:30",
       "time_to": "15:30",
       "course_code": "CSEUGPC12",
@@ -129,6 +141,7 @@
   ],
   [
     {
+      "id": 13,
       "time_from": "11:00",
       "time_to": "12:00",
       "course_code": "CSEUGPC12",
@@ -139,6 +152,7 @@
       ]
     },
     {
+      "id": 14,
       "time_from": "13:30",
       "time_to": "15:30",
       "course_code": "CSEUGPC11",
