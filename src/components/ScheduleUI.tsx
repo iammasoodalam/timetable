@@ -30,8 +30,8 @@ export default function ScheduleUI({ data }: { data: data }) {
         <option value="4">Friday</option>
       </select>
       {
-        data[today].map((day, index) => (
-          <ScheduleCard key={index} {...day} />
+        data[today].map((day) => (
+          <ScheduleCard key={day.id} {...day} />
         ))
       }
     </>
