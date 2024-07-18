@@ -39,7 +39,7 @@ export default function ScheduleCard(day: cardData) {
       <section className={styles.header}>
         <div className={styles.time_keeper}>
           <time>{data.time_from}</time>
-          {" => "}
+          <span>{" => "}</span>
           <time>{data.time_to}</time>
         </div>
         <div>

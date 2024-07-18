@@ -105,6 +105,17 @@
   }
 }
 
+.time_inputs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+
+  & > input {
+    flex-grow: 1;
+  }
+}
+
 .formLabel {
   font-size: 16px;
   font-weight: bold;
