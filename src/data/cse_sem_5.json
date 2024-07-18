@@ -142,8 +142,8 @@
   [
     {
       "id": 13,
-      "time_from": "11:00",
-      "time_to": "12:00",
+      "time_from": "11:30",
+      "time_to": "12:30",
       "course_code": "CSEUGPC12",
       "course_name": "Design & Analysis of Algorithms",
       "schedule_type": "lecture",
@@ -153,8 +153,8 @@
     },
     {
       "id": 14,
-      "time_from": "13:30",
-      "time_to": "15:30",
+      "time_from": "14:00",
+      "time_to": "16:00",
       "course_code": "CSEUGPC11",
       "course_name": "Database Management Systems",
       "schedule_type": "lecture",
