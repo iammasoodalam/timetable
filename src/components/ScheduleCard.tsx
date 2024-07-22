@@ -4,7 +4,11 @@ import { useState, useRef, ChangeEvent } from "react";
 
 export default function ScheduleCard(day: cardData) {
   const dialogRef = useRef<HTMLDialogElement | null>(null);
-  const [data, setData] = useState<cardData>(day);
+  const [data, setData] = useState<cardData & { isCancelled: boolean, description: string }>({
+    ...day,
+    isCancelled: false,
+    description: ""
+  });
   const [formData, setFormData] = useState(data);
 
   function editCard() {
@@ -25,15 +29,18 @@ export default function ScheduleCard(day: cardData) {
 
   function confirmUpdate(e: React.MouseEvent<HTMLButtonElement>) {
     setData(formData)
+    console.log(formData)
     dialogRef.current?.close()
   }
 
   return (
     <div
       className={
-        data.schedule_type == "lecture"
+        `${data.schedule_type == "lecture"
           ? styles.card
-          : `${styles.card_lab} ${styles.card}`
+          : `${styles.card_lab} ${styles.card}`}
+        ${data.isCancelled && styles.cancelled}  
+        `
       }
     >
       <section className={styles.header}>
@@ -47,6 +54,7 @@ export default function ScheduleCard(day: cardData) {
         </div>
       </section>
       <h1 className={styles.course_name}>{data.course_name}</h1>
+      {(data.description) && <p className={styles.description}>{data.description}</p>}
       <section className={styles.meta_data}>
         <div>
           {!data.professor.length
@@ -57,6 +65,21 @@ export default function ScheduleCard(day: cardData) {
       </section>
       <dialog className={styles.modal} ref={dialogRef}>
         <form method="dialog" className={styles.updateCardForm}>
+          <div className={styles.class_cancelled}>
+            <label htmlFor="isCancelled">Class Cancelled</label>
+            <input
+              type="checkbox"
+              name="isCancelled"
+              checked={formData.isCancelled}
+              onChange={(e) => (
+                setFormData(prev => ({
+                  ...prev,
+                  isCancelled: e.target.checked
+                }))
+              )}
+              id="isCancelled"
+            />
+          </div>
           <div className={styles.change_time}>
             <label className={styles.formLabel} htmlFor="time_from">
               Time
@@ -121,6 +144,20 @@ export default function ScheduleCard(day: cardData) {
               spellCheck="false"
               name="professor"
               id="professor"
+            />
+          </div>
+          <div>
+            <label className={styles.formLabel} htmlFor="description">
+              Description:{" "}
+            </label>
+            <input
+              className={styles.formInput}
+              onChange={updateData}
+              value={formData.description}
+              type="text"
+              spellCheck="true"
+              name="description"
+              id="description"
             />
           </div>
           <div>
