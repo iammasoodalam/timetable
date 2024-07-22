@@ -5,9 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "xyz.appmaker.lbkjmi",
+      "package_name": "app.vercel.aliahcse.twa",
       "sha256_cert_fingerprints": [
-        "6B:28:0F:15:77:CB:F5:E6:6A:12:D6:B6:DD:7F:99:1D:C1:D8:C5:E4:7C:DA:CB:61:D7:D7:67:09:ED:21:57:70"
+        "69:9A:C9:CF:C1:CE:56:29:64:B8:83:F2:89:6F:73:F6:A7:D0:3D:E3:2F:AD:FC:5B:C7:41:2B:FA:F3:AC:11:18"
       ]
     }
   }
