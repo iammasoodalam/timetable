@@ -5,9 +5,9 @@
     ],
     "target": {
       "namespace": "android_app",
-      "package_name": "app.vercel.aliahcse.twa",
+      "package_name": "schedule.iammasoodalam.com",
       "sha256_cert_fingerprints": [
-        "69:9A:C9:CF:C1:CE:56:29:64:B8:83:F2:89:6F:73:F6:A7:D0:3D:E3:2F:AD:FC:5B:C7:41:2B:FA:F3:AC:11:18"
+        "4B:42:EC:D7:56:C2:43:CB:4B:9B:C3:ED:D1:33:46:1B:A6:07:1C:B9:1C:5E:4A:54:E0:58:AD:02:22:67:D2:2B"
       ]
     }
   }
