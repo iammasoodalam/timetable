@@ -29,5 +29,18 @@
       "form_factor": "narrow",
       "label": "Homescreen of Schedule App"
     }
+  ],
+  "id": "schedule.iammasoodalam.com",
+  "dir": "ltr",
+  "lang": "en",
+  "orientation": "portrait",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "education",
+    "productivity",
+    "utilities"
   ]
 }
