@@ -1,0 +1,219 @@
+[
+  [
+    {
+      "id": 1,
+      "time_from": "10:00",
+      "time_to": "12:00",
+      "course_code": "CSEUGPC20",
+      "course_name": "Computer Graphics",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "id": 2,
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPC21",
+      "course_name": "Embedded Systems",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    },
+    {
+      "id": 3,
+      "time_from": "13:40",
+      "time_to": "14:40",
+      "course_code": "CSEUGPC17",
+      "course_name": "Software Engineering",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
+    },
+    {
+      "id": 4,
+      "time_from": "14:40",
+      "time_to": "16:40",
+      "course_code": "CSEUGPC19",
+      "course_name": "Computer Networks",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Khondekar Lutful Hassan"
+      ]
+    },
+    {
+      "id": 5,
+      "time_from": "16:40",
+      "time_to": "17:40",
+      "course_code": "",
+      "course_name": "Remedial Class",
+      "schedule_type": "",
+      "professor": []
+    }
+  ],
+  [
+    {
+      "id": 6,
+      "time_from": "10:00",
+      "time_to": "12:00",
+      "course_code": "CSEUGPC21",
+      "course_name": "Embedded Systems",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Moumita Chatterjee"
+      ]
+    },
+    {
+      "id": 7,
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPC17",
+      "course_name": "Software Engineering",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
+    },
+    {
+      "id": 8,
+      "time_from": "13:40",
+      "time_to": "14:40",
+      "course_code": "CSEUGPC19",
+      "course_name": "Computer Networks",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Khondekar Lutful Hassan"
+      ]
+    },
+    {
+      "id": 9,
+      "time_from": "14:40",
+      "time_to": "17:40",
+      "course_code": "CSEUGPC22",
+      "course_name": "Compiler Design Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain"
+      ]
+    }
+  ],
+  [
+    {
+      "id": 10,
+      "time_from": "10:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPE08",
+      "course_name": "Image Processing Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Sk Md Obaidullah"
+      ]
+    },
+    {
+      "id": 11,
+      "time_from": "13:40",
+      "time_to": "15:40",
+      "course_code": "CSEUGPE02+03",
+      "course_name": "Data Science & Big Data OR Image Processing",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain",
+        "Dr. Sk Md Obaidullah"
+      ]
+    },
+    {
+      "id": 12,
+      "time_from": "15:40",
+      "time_to": "17:40",
+      "course_code": "CSEUGPC18",
+      "course_name": "Compiler Design",
+      "schedule_type": "lecture",
+      "professor": [
+        "Zafar Sharif"
+      ]
+    }
+  ],
+  [
+    {
+      "id": 13,
+      "time_from": "10:00",
+      "time_to": "11:00",
+      "course_code": "CSEUGPC18",
+      "course_name": "Compiler Design",
+      "schedule_type": "lecture",
+      "professor": [
+        "Zafar Sharif"
+      ]
+    },
+    {
+      "id": 14,
+      "time_from": "11:00",
+      "time_to": "12:00",
+      "course_code": "CSEUGPC20",
+      "course_name": "Computer Graphics",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "id": 15,
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": "CSEUGPE02+03",
+      "course_name": "Data Science & Big Data OR Image Processing",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain",
+        "Dr. Sk Md Obaidullah"
+      ]
+    },
+    {
+      "id": 16,
+      "time_from": "13:40",
+      "time_to": "14:40",
+      "course_code": "CSEUGPC17",
+      "course_name": "Software Engineering",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
+    },
+    {
+      "id": 17,
+      "time_from": "14:40",
+      "time_to": "17:40",
+      "course_code": "CSEUGPE07",
+      "course_name": "Data Science Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Sk Md Mosaddek Hossain"
+      ]
+    }
+  ],
+  [
+    {
+      "id": 18,
+      "time_from": "10:00",
+      "time_to": "13:00",
+      "course_code": "",
+      "course_name": "Training & Placement",
+      "schedule_type": "",
+      "professor": []
+    },
+    {
+      "id": 19,
+      "time_from": "13:40",
+      "time_to": "16:40",
+      "course_code": "CSEUGPC23",
+      "course_name": "Computer Networks Lab",
+      "schedule_type": "lab",
+      "professor": [
+        "Dr. Khondekar Lutful Hassan"
+      ]
+    }
+  ]
+]

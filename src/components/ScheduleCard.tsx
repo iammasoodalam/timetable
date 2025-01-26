@@ -61,7 +61,12 @@ export default function ScheduleCard(day: cardData) {
             ? "No data present"
             : data.professor.map((prof, index) => <p key={index}>{prof}</p>)}
         </div>
-        <p>{data.course_code}</p>
+        <p>{
+          !data.course_code
+            ? "No data present"
+            : data.course_code
+        }
+        </p>
       </section>
       <dialog className={styles.modal} ref={dialogRef}>
         <form method="dialog" className={styles.updateCardForm}>
