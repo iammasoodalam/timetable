@@ -1,8 +1,19 @@
 [
   [
     {
-      "id": 1,
+      "id": 99,
       "time_from": "10:00",
+      "time_to": "11:00",
+      "course_code": "Not Available",
+      "course_name": "Mentorship 1-32",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Zeenat Rehena"
+      ]
+    },
+    {
+      "id": 1,
+      "time_from": "11:00",
       "time_to": "12:00",
       "course_code": "CSEUGPC20",
       "course_name": "Computer Graphics",
@@ -23,20 +34,9 @@
       ]
     },
     {
-      "id": 3,
-      "time_from": "13:40",
-      "time_to": "14:40",
-      "course_code": "CSEUGPC17",
-      "course_name": "Software Engineering",
-      "schedule_type": "lecture",
-      "professor": [
-        "Ahsan Mullick"
-      ]
-    },
-    {
       "id": 4,
-      "time_from": "14:40",
-      "time_to": "16:40",
+      "time_from": "13:40",
+      "time_to": "15:40",
       "course_code": "CSEUGPC19",
       "course_name": "Computer Networks",
       "schedule_type": "lecture",
@@ -45,13 +45,15 @@
       ]
     },
     {
-      "id": 5,
-      "time_from": "16:40",
+      "id": 45,
+      "time_from": "15:40",
       "time_to": "17:40",
-      "course_code": "",
-      "course_name": "Remedial Class",
-      "schedule_type": "",
-      "professor": []
+      "course_code": "CSEUGPC17",
+      "course_name": "Software Engineering",
+      "schedule_type": "lecture",
+      "professor": [
+        "Ahsan Mullick"
+      ]
     }
   ],
   [
@@ -138,19 +140,8 @@
   ],
   [
     {
-      "id": 13,
-      "time_from": "10:00",
-      "time_to": "11:00",
-      "course_code": "CSEUGPC18",
-      "course_name": "Compiler Design",
-      "schedule_type": "lecture",
-      "professor": [
-        "Zafar Sarif"
-      ]
-    },
-    {
       "id": 14,
-      "time_from": "11:00",
+      "time_from": "10:00",
       "time_to": "12:00",
       "course_code": "CSEUGPC20",
       "course_name": "Computer Graphics",
@@ -172,14 +163,14 @@
       ]
     },
     {
-      "id": 16,
+      "id": 13,
       "time_from": "13:40",
       "time_to": "14:40",
-      "course_code": "CSEUGPC17",
-      "course_name": "Software Engineering",
+      "course_code": "CSEUGPC18",
+      "course_name": "Compiler Design",
       "schedule_type": "lecture",
       "professor": [
-        "Ahsan Mullick"
+        "Zafar Sarif"
       ]
     },
     {
@@ -198,11 +189,22 @@
     {
       "id": 18,
       "time_from": "10:00",
-      "time_to": "13:00",
+      "time_to": "12:00",
       "course_code": "",
       "course_name": "Training & Placement",
       "schedule_type": "",
       "professor": []
+    },
+    {
+      "id": 98,
+      "time_from": "12:00",
+      "time_to": "13:00",
+      "course_code": "Not Available",
+      "course_name": "Mentorship 33-lat9",
+      "schedule_type": "lecture",
+      "professor": [
+        "Dr. Ayatullah Faruk Mollah"
+      ]
     },
     {
       "id": 19,
@@ -214,6 +216,15 @@
       "professor": [
         "Dr. Khondekar Lutful Hassan"
       ]
-    }
+    },
+    {
+      "id": 97,
+      "time_from": "16:40",
+      "time_to": "17:40",
+      "course_code": "Not Available",
+      "course_name": "Sports and Cultural Activity",
+      "schedule_type": "lecture",
+      "professor": []
+    },
   ]
 ]
