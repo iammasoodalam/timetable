@@ -1,4 +1,5 @@
 "use client";
+import formatTime from "@/util/formatTime";
 import styles from "./ScheduleCard.module.scss";
 import { useState, useRef, ChangeEvent } from "react";
 
@@ -45,9 +46,9 @@ export default function ScheduleCard(day: cardData) {
     >
       <section className={styles.header}>
         <div className={styles.time_keeper}>
-          <time>{data.time_from}</time>
+          <time dateTime={data.time_from}>{formatTime(data.time_from)}</time>
           <span>{" => "}</span>
-          <time>{data.time_to}</time>
+          <time dateTime={data.time_to}>{formatTime(data.time_to)}</time>
         </div>
         <div>
           <button onClick={editCard}>Edit</button>
